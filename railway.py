@@ -275,7 +275,7 @@ t1 = train('Andhrapradesh',12345,'22:34','21:12','kyp','pyp','thu',300,234,243,2
 t2 = train('chennai',12565,'12:34','13:12','ryc','rdp','tue',303,44,102,34,4435,24)
 t3 = train('hyderabad',22353,'12:56','13:02','kyp','jkk','Fri',303,244,707,55,25,53)
 trains = {t1.num:t1,t2.num:t2,t3.num:t3}
-u1 = user(0318,'ankitha','kolkata','6789044444','ankitha')
+u1 = user(4018,'ankitha','kolkata','6789044444','ankitha')
 u2 = user(3018,'vaibhav','delhi','7890122222','vaibhav')
 users={u1.uid : u1, u2.uid : u2}
 ticket_dict = {}
@@ -297,15 +297,15 @@ def s():
 
 def job_vacancy():
     print("job vacancies : 3018\nif needed specifically search in goggle\nexam dates,results:not released yet")
-menu()
+    menu()
 
 def stations_nearby():
     print("currently couldnot detect your Gps location try after sometime")
-menu()
+    menu()
     
 def order_food():
     print("menu currently unavailable")
-menu()
+    menu()
     
 def setrem():
     phno=int(input("enter the phone number"))
@@ -318,7 +318,7 @@ def setrem():
         
     else:
         print("Enter valid phonno/trainno") 
- menu()
+        menu()
 
 
 
